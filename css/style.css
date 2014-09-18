@@ -813,7 +813,7 @@
 /* Header                                                                        */
 /*********************************************************************************/
 
-	#header
+	/*#header
 	{
 		position: relative;
 		margin: 0;
@@ -825,7 +825,19 @@
 		text-align: center;
 		color: #fff;
 	}
+	*/
 	
+	#bg{
+		position: fixed;
+		right: 0;
+		/* Preserve aspet ratio */
+		background-size:cover;
+		width: 100%
+	}
+	
+	#header
+	{
+	}
 		#header header
 		{
 		}
